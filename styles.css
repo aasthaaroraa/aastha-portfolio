@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    padding: 20px; /* Added padding */
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    width: 350%; /* Adjusted width */
+}
+
+.profile-image {
+    width: 600px; /* Further increased size */
+    height: 600px; /* Further increased size */
+    border-radius: 50%;
+    margin-right: 50px; /* Adjusted margin */
+}
+
+.profile-info {
+    flex: 1;
+}
+
+h1 {
+    color: #FFB900;
+    font-size: 6em; /* Further increased size */
+    margin: 0.5em 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 5em; /* Further increased size */
+    margin: 0.5em 0;
+}
+
+p {
+    font-size: 2.5em; /* Further increased size */
+    color: #666;
+    margin: 1em 0;
+    max-width: 1000px; /* Further increased max width */
+}
+
+.btn {
+    display: inline-block;
+    padding: 30px 60px; /* Further increased padding */
+    background-color: #FFB900;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #e0a800;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute; /* Use absolute positioning */
+    right: 50px; /* Position from the right */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+}
+
+.social-link {
+    font-size: 3.5em; /* Further increased size */
+    color: #FFB900;
+    margin: 50px 0; /* Adjusted margin */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #e0a800;
+}
